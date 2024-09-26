@@ -13,7 +13,7 @@ import { newsLetterCron } from "./automation/newsletterCron.js";
 
 
 const app = express();
-config({ path: "./config/config.env" });
+config({ path: "./.env" });
 
 app.use(
   cors({
